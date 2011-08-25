@@ -3,8 +3,8 @@ Contributors: jealousdesigns
 Donate link: http://jealousdesigns.co.uk
 Tags: hana, hana flv, flv, extension, upload, integration, media library
 Requires at least: 3.0
-Tested up to: 3.1.3
-Stable tag: 0.1
+Tested up to: 3.2.1
+Stable tag: 0.2
 
 Hana FLV extension extends the capabilities of the Hana FLV Player plugin to allow integration with the WP media library.
 
@@ -41,8 +41,11 @@ No. You will need to have Hana FLV installed and activated for this plugin to wo
 = 0.1 =
 * First release
 
+= 0.2 =
+*Added fix for 500 error on js file
+
 == Upgrade Notice ==
 
-= 0.1 =
+= 0.2 =
 
-First release so no update
+Added fix for 500 error on js file

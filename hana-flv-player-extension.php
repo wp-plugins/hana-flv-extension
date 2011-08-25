@@ -3,7 +3,7 @@
 Plugin Name: Hana Flv Player Extension
 Plugin URI: http://jealousdesigns.co.uk
 Description: Extends Hana FLV Player to enable upload of media directly within the plugin rather than having to copy urls.
-Version: 0.1
+Version: 0.2
 Author: Jealous Designs
 Author URI: http://jealousdesigns.co.uk
 */
@@ -14,9 +14,9 @@ $required_plugin = 'hana-flv-player/hana-flv-player.php';
 
 if(in_array( $required_plugin , $plugins )){
 
-	if (!defined("HFE_url")) { define("HFE_url", WP_PLUGIN_URL.'/hana-flv-player-extension'); } //NO TRAILING SLASH
+	if (!defined("HFE_url")) { define("HFE_url", WP_PLUGIN_URL.'/hana-flv-extension'); } //NO TRAILING SLASH
 	
-	if (!defined("HFE_dir")) { define("HFE_dir", WP_PLUGIN_DIR.'/hana-flv-player-extension'); } //NO TRAILING SLASH
+	if (!defined("HFE_dir")) { define("HFE_dir", WP_PLUGIN_DIR.'/hana-flv-extension'); } //NO TRAILING SLASH
 	
 	
 	include_once('includes/class-hana-flv-ext.php'); //
